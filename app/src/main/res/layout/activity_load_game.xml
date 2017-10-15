@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yuriystr.wordgame.LoadGameActivity">
+
+    <RelativeLayout
+        android:layout_width="367dp"
+        android:layout_height="506dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="140dp"
+            android:text="ТУТ БУДУТ СЕЙВЫ"
+            tools:layout_editor_absoluteX="129dp"
+            tools:layout_editor_absoluteY="82dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignEnd="@+id/buttonBack" />
+
+        <Button
+            android:id="@+id/buttonBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="37dp"
+            android:onClick="onClickBack"
+            android:text="@string/back_to_menu"
+            tools:layout_editor_absoluteX="147dp"
+            tools:layout_editor_absoluteY="399dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">WordGame</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="quit_question">Are you sure you want to quit?</string>
+    <string name="new_game">New game</string>
+    <string name="load_game">Load game</string>
+    <string name="quit">Quit</string>
+    <string name="options">Options</string>
+    <string name="back_to_menu">Back to menu</string>
+    <string name="save">Save</string>
+    <string name="confirm">Confirm</string>
+</resources>
